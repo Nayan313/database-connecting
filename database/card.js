@@ -14,7 +14,7 @@ http.onload = function(){
 
       for(let item of products){
          output += `
-         <a href="product (1).html" class="trending-card">
+         <a href="product (${item.id}).html" class="trending-card">
                <img src="${item.img}"  alt="" class="trending-card-img">
                <div class="trending-card-detail">
                   <p class="trending-card-title-name">${item.title}</p>
